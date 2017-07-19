@@ -1,0 +1,6 @@
+<!--
+-- *ngFor 是循环指令；
+-- let 声明一个变量(所声明的变量只在 let 所在的代码块中有效)；
+-- [class.glyphicon-star-empty]="star" 类的绑定，如果 star 的值为 true，则为 span 标签添加 glyphicon-star-empty 类，否则不添加
+-->
+<span *ngFor="let star of stars;" class="glyphicon glyphicon-star" [class.glyphicon-star-empty]="star"></span>

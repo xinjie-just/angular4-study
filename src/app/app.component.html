@@ -1,0 +1,23 @@
+<!--
+-- 下面的一些标签，如 <app-header></app-header> 类似于 html 标签
+-- 用来调用各个子组件的模板(即 *.component.html)， header 为组件名称
+-- 创建组件的命令是 ng g component <组件名>，如创建底部组件： ng g component footer.
+-->
+
+<div class="wrapper">
+
+  <!-- Main Header -->
+  <app-header></app-header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <app-menu></app-menu>
+
+  <!-- Content Wrapper. Contains page content -->
+  <app-content></app-content>
+  <!-- /.content-wrapper -->
+
+  <!-- Main Footer -->
+  <app-footer></app-footer>
+
+  <!-- Control Sidebar -->
+  <app-sidebar></app-sidebar>
+</div>
